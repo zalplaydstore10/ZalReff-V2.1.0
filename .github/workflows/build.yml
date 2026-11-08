@@ -79,8 +79,7 @@ jobs:
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ZalReff-V2.1.0
+          name: ZalReff-V2-JAR
           path: ${{ env.PROJECT_DIR }}/target/ZalReff-V2.jar
           if-no-files-found: error
-          retention-days: 14
-          
+          retention-days: 14    
